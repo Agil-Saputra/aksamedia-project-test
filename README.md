@@ -1,12 +1,93 @@
-# React + Vite
+# SIMPEN - Sistem Manajemen Pengguna
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SIMPEN (Sistem Manajemen Pengguna) adalah aplikasi manajemen pengguna berbasis web yang dibangun dengan React dan Tailwind CSS.
 
-Currently, two official plugins are available:
+## ✨ Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Autentikasi Pengguna** - Sistem login/logout 
+- **Manajemen Pengguna** - Operasi CRUD data pengguna
+- **Analitik Dashboard** - Gambaran statistik 
+- **Manajemen Profil** - Kemampuan melihat dan mengedit profil pengguna
+- **Desain Responsif** - sepenuhnya responsif untuk desktop, tablet dan mobile
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Framework Frontend
+
+- **React 19.1.0** - React terbaru dengan hooks dan fitur modern
+- **React Router DOM 7.6.3** - Routing dan navigasi sisi klien
+- **Vite 7.0.4** - Build tool cepat dan server pengembangan
+
+### Styling & Desain
+- **Tailwind CSS 3.4.17** - Framework CSS utility-first
+- **PostCSS 8.5.6** - Pemrosesan dan optimasi CSS
+- **Autoprefixer 10.4.21** - Penambahan prefix vendor otomatis
+
+### Tools Pengembangan
+- **ESLint 9.30.1** - Linting kode dan jaminan kualitas
+- **Vite Plugin React 4.6.0** - Integrasi React untuk Vite
+
+## 📁 Struktur Project
+
+```
+src/
+├── components/         
+│   ├── navbar.jsx     
+│   ├── sidebar.jsx     
+│   ├── pagination.jsx  
+│   ├── user-filters.jsx 
+│   ├── user-row.jsx   
+│   ├── theme-dropdown.jsx
+│   ├── user-dropdown.jsx  
+│   └── protected-route.jsx 
+├── context/           
+│   ├── auth-context.jsx
+│   └── theme-context.jsx 
+├── layout/            
+│   └── admin-layout.jsx 
+├── pages/              
+│   ├── login.jsx     
+│   ├── dashboard.jsx   
+│   ├── users.jsx       
+│   └── profile.jsx   
+└── assets/             
+    └── react.svg      
+```
+
+
+
+### Pre-requisites
+- Node.js (versi 16 atau lebih tinggi)
+- npm atau yarn package manager
+
+### Instalasi
+
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/Agil-Saputra/aksamedia-project-test.git
+   cd aksamedia-project-test
+   ```
+
+2. **Install dependency**
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan server dev**
+   ```bash
+   npm run dev
+   ```
+
+4. **Buka browser**
+    Buka halaman ini:  `http://localhost:5173`
+
+
+## 📄 Lisensi
+
+Proyek ini adalah bagian dari proyek tes magang untuk Aksamedia.
+
+## 👨‍💻 Developer
+
+**Agil Saputra**  
+Proyek Magang - Aksamedia
+
+*Dibangun dengan ❤️ oleh agil*
